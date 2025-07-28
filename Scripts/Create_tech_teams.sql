@@ -1,7 +1,4 @@
-SELECT Technician_Long_Name,Technician_ID,EMPLOYID,Technician_Team FROM SV00115
-  WHERE Technician_Team = 'TEAM 1' OR Technician_Team = 'TEAM 2' OR Technician_Team = 'TEAM 3' OR Technician_Team = 'TEAM 4'
-  ORDER BY Technician_Long_Name
-
+Select * from Z_Technician_team_assignments;
 DROP TABLE Z_Technician_team_assignments;
 
 CREATE TABLE Z_Technician_team_assignments (
